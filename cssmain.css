@@ -1,0 +1,216 @@
+
+body{
+    width: 100%;
+    height: 100%;
+    background: url("images/menuscreen.png") no-repeat;
+    background-position: -320px -9px;
+    background-size: cover;
+}
+
+.navmenu{
+    display: inline-block;
+    height: 300px;
+    width: 90%;
+    margin-left: 90px;
+    border-style: outset;
+    border-radius: 20px;
+    background: linear-gradient(to right ,red,white, blue);
+    border-color: #eabf37;
+    margin-bottom: 20px;
+}
+.navmenu>a{
+    display: inline-block;
+    width: 130px;
+    height: 130px;
+    background-image: url("images/mainlogocs.png") ;
+    background-size: contain;
+    margin-left: 650px;
+    margin-top: 20px;
+}
+.navmenu li:first-of-type{
+    margin-left: 270px;
+}
+.navmenu li:hover{
+    background: #eabf37;
+    color: darkred;
+}
+.navmenu a:hover{
+    color: darkred;
+}
+
+.navmenu li{
+    width: 130px;
+    display: inline-block;
+    float: left;
+    margin: 30px;
+    height: 30px;
+    border-style: groove;
+    border-radius: 30%;
+    text-align: center;
+    background: black;
+    padding: 10px;
+}
+.navmenu li a{
+    text-decoration: none;
+    color: sandybrown;
+}
+.mainbody h1{
+    color: #eabf37;
+    padding:20px;
+    width: 100%;
+}
+.mainbodyog h1,h3{
+    color: #eabf37;
+    padding:20px;
+    width: 75%;
+    margin-bottom: -30px;
+}
+
+.mainbodyog img{
+    width: 150px;
+    height: 150px;
+    margin-left: 600px;
+    margin-top: -390px;
+    margin-bottom: 300px;
+}
+.mainbodyog img:nth-last-of-type(2){
+    width: 300px;
+    height: 100px;
+    border: solid yellowgreen 2px;
+    margin-left: 480px;
+    margin-top: -200px;
+}
+.mainbody {
+    display: flex;
+    width: 800px;
+    height: 900px;
+    background: darkred;
+    flex-direction: column;
+    border-style: groove;
+    margin: auto;
+    border-color: #eabf37;
+    border-radius: 10px;
+    padding-top: 10px;
+}
+.mainbodyog {
+    display: flex;
+    width: 800px;
+    height: 1200px;
+    background: darkred;
+    flex-direction: column;
+    border-style: groove;
+    margin: auto;
+    border-color: #eabf37;
+    border-radius: 10px;
+    padding-top: 10px;
+}
+.mainbodyog .didyouknow p{
+    height: 100px;
+}
+.didyouknow a{
+    text-decoration: none;
+    color: lightblue;
+}
+
+.mainbody img:first-of-type{
+    margin-left: 30px;
+    margin-top: 20px;
+    width:450px ;
+    height: 100px;
+}
+.mainbody p{
+    margin-top: 40px;
+    border-style: inset;
+    background: rgba(44,58,87,255);
+    text-align: justify;
+    margin-left: 10px;
+    border-radius: 10px;
+    width: 50%;
+    float: left;
+    color: #eabf37;
+    word-spacing: 2px;
+    display: inline-block;
+    height: 400px;
+    padding: 20px;
+}
+.didyouknow{
+    margin-top: -120px;
+}
+.mainbodyog p{
+    margin-top: 40px;
+    border-style: inset;
+    background: rgba(44,58,87,255);
+    text-align: justify;
+    margin-left: 10px;
+    border-radius: 10px;
+    width: 50%;
+    float: left;
+    color: #eabf37;
+    word-spacing: 2px;
+    display: inline-block;
+    height: 400px;
+    padding: 20px;
+}
+.mainbody #phoneix{
+    width:100px;
+    height: 100px;
+    margin-left: 40px;
+    border-radius: 30px;
+}
+.mainbody img:last-of-type{
+    width: 300px;
+    height: 300px;
+    margin-left: 470px;
+    border: solid yellowgreen 2px;
+    margin-top: -330px;
+}
+
+.mainbodyog img:last-of-type{
+    width: 300px;
+    height: 300px;
+    margin-left: 470px;
+    border: solid yellowgreen 2px;
+    margin-top: -180px;
+    margin-bottom:-100px;
+}
+#zero{
+    width: 300px;
+    height: 300px;
+    border: solid yellowgreen 2px;
+    margin-left: 470px;
+    margin-top: 120px;
+    margin-bottom: -300px;
+}
+#lore{
+    width: 300px;
+    height: 300px;
+    margin-left: 470px;
+    margin-top: 250px;
+    border: solid yellowgreen 2px;
+}
+footer{
+    width: 100%;
+    height: 100px;
+    background: black;
+    border-top: inset;
+    border-color: #eabf37;
+    margin-top: 10px;
+    margin-left: -10px;
+}
+footer div{
+    color: #eabf37;
+    font-family: "Arial Black";
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+footer a:first-of-type{
+    text-decoration: none;
+    color: deeppink;
+    margin-left: 680px;
+    margin-right: 130px;
+}
+footer a:last-of-type{
+    text-decoration: none;
+    color: dodgerblue;
+}
